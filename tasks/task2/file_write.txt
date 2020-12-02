@@ -1,7 +1,13 @@
-Data from file: Hello test text
+Initial text: Hello test text (48656C6C6F20746573742074657874)
 
-Data after encryption des: b'F\xe1\x15\x86\xdd}\xb2I\x1b\xe3$\x8f\x02\xcb\x98_'
-Data after encryption double des: b'(J\xd0\xf3m\x0cv\x11\xdb\x7f\xa6\xfb\xaa9I\xfb'
-Data after encryption triple des: b'/kZRi\x05\xf0\xb6c}\xc3\x0e\x10\x883='
-Encryption initial value bytes: b'BTCXRPVV'
-Data after encryption: Hello test text
+Encrypted text(ECB): 35197527ADEF821F3A6FD38796A7EF07
+Decrypted text(ECB): Hello test text (48656C6C6F20746573742074657874)
+
+Encrypted text(CBC): 6B868CC6C0EA1973B705CAE1818C5CA5
+Decrypted text(CBC): Hello test text (48656C6C6F20746573742074657874)
+
+Encrypted text(CFB): 3AF63CE1B39FA87B8B8B31AAE707BCBA
+Decrypted text(CFB): Hello test text (48656C6C6F20746573742074657874)
+
+Encrypted text(CTR): 8D9396627E945D6C8A27A6C578B12091
+Encrypted text(CTR): Hello test text (48656C6C6F20746573742074657874)
