@@ -1,0 +1,7 @@
+Data from file: Hello test text
+
+Data after encryption des: b'F\xe1\x15\x86\xdd}\xb2I\x1b\xe3$\x8f\x02\xcb\x98_'
+Data after encryption double des: b'(J\xd0\xf3m\x0cv\x11\xdb\x7f\xa6\xfb\xaa9I\xfb'
+Data after encryption triple des: b'/kZRi\x05\xf0\xb6c}\xc3\x0e\x10\x883='
+Encryption initial value bytes: b'BTCXRPVV'
+Data after encryption: Hello test text
