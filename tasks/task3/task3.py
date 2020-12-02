@@ -21,11 +21,11 @@ class AlgorithmRSA:
         with open(self.write_filename, 'w+') as wf:
             wf.write(data)
 
-    def rsa_encrypt(self):
+    def rsa_encrypt(self) -> bytes:
         return rsa.encrypt(self.data.encode('UTF-8'), self.public_key)
 
-    def rsa_decrypt(self, data):
-        return rsa.decrypt(data, self.private_key)
+    def rsa_decrypt(self, data) -> str:
+        return rsa.decrypt(data, self.private_key).decode('UTF-8')
 
 
 def main():
