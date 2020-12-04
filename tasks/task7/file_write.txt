@@ -1,0 +1,8 @@
+Initial text: Hello test text
+
+SigningKey: <ecdsa.keys.SigningKey object at 0x7fa64a8b7dc0>
+VerifyingKey: VerifyingKey.from_string(b'\x03Z\xb8\x91`D/-\xc7R\xe6\x96\x91\xb6\xad\xde\x84\x99g~\xe7Z!\x81\xd9', NIST192p, sha1)
+Signature: b'\xee\xa0\x84LBY:\xba\xe1\x01\xeaQ\t\x84\xf18$\xc9\x89\x02\x04\x14\x7fM.f\x12\x86\xf00xg\xa7\x89\x00\x04J\x1c\xee\xb9\xdd\xd7\xaf\xb7\x0b\xa2\xc5='
+
+Verify signature with text "Hello": False
+Verify signature with text "Hello test text": True
