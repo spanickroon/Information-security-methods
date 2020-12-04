@@ -1,0 +1,2 @@
+Initial text: Hello test text
+Text from picture: Hello test text
