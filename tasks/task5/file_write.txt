@@ -1,0 +1,5 @@
+Initial text: Hello test text
+
+MD5 object: <md5 HASH object @ 0x7f3c33d4fb10>
+Encoded data in byte forma: b']\x92\x15\xe8\xe5\xf6\xde\xb8\xeb+BD\xfdO8\x12'
+Encoded data in hexadecimal format: 5d9215e8e5f6deb8eb2b4244fd4f3812
