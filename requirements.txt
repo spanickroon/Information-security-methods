@@ -5,3 +5,4 @@ pycryptodome==3.4.3
 crypto==1.4.1
 ctypescrypto==0.5
 ecdsa==0.16.1
+Pillow==8.0.1
